@@ -29,7 +29,7 @@ sudo find /usr/share/plymouth/themes/spinner -type f -name 'throbber-*' -delete
 
 This copies the new throbber files to your Plymouth 'spinner' directory.
 ```
-sudo cp -r frames/. /usr/share/plymouth/themes/spinner/
+sudo cp -r Throbber-frames/. /usr/share/plymouth/themes/spinner/
 ```
 
 **Apply changes to the kernel**
@@ -45,6 +45,6 @@ Since that's the distro i'm using I can confidently make a one copy-paste-action
 
 (all the commands above chained)
 ```
-sudo cp -r /usr/share/plymouth/themes/. /usr/share/plymouth/themes-bak/ ; git clone https://github.com/Player6734/Framework-plymouth.git /home/$USER/Downloads/framework-plymouth ; cd /home/$USER/Downloads/framework-plymouth ; sudo find /usr/share/plymouth/themes/spinner -type f -name 'throbber-*' -delete ; sudo cp -r frames/. /usr/share/plymouth/themes/spinner/ ; cd
+sudo cp -r /usr/share/plymouth/themes/. /usr/share/plymouth/themes-bak/ ; git clone https://github.com/Player6734/Framework-plymouth.git /home/$USER/Downloads/framework-plymouth ; cd /home/$USER/Downloads/framework-plymouth ; sudo find /usr/share/plymouth/themes/spinner -type f -name 'throbber-*' -delete ; sudo cp -r Throbber-frames/. /usr/share/plymouth/themes/spinner/ ; cd
 ```
 
