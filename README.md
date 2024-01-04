@@ -1,6 +1,7 @@
 # Framework-spinner
+Thank you sniss for making this gif!
 
-## installation
+## ![result](https://github.com/Player6734/Framework-plymouth/assets/88460695/3c80c32c-4990-404a-9f04-d06a1656e805) Installation ![result](https://github.com/Player6734/Framework-plymouth/assets/88460695/3c80c32c-4990-404a-9f04-d06a1656e805)
 **Backup your Plymouth themes folder**
 ```
 sudo cp -r /usr/share/plymouth/themes/. /usr/share/plymouth/themes-bak/
@@ -9,12 +10,12 @@ sudo cp -r /usr/share/plymouth/themes/. /usr/share/plymouth/themes-bak/
 
 **Clone the repository**
 ```
-git clone https://github.com/Player6734/Framework-spinner.git /home$USER/Downloads/framework-spinner
+git clone https://github.com/Player6734/Framework-plymouth.git /home$USER/Downloads/framework-plymouth
 ```
 
 **cd into it**
 ```
-cd /home/$USER/Downloads/framework-spinner
+cd /home/$USER/Downloads/framework-plymouth
 ```
 
 **Remove old throbber files**
@@ -40,8 +41,10 @@ sudo dracut --force
 
 
 ### For fedora users
-Since that's the distro i'm on i can confidently make a one copy-paste-action for this:
+Since that's the distro i'm using I can confidently make a one copy-paste-action for this:
 
 (all the commands above chained)
 ```
-sudo cp -r /usr/share/plymouth/themes/. /usr/share/plymouth/themes-bak/ ; git clone https://github.com/Player6734/Framework-spinner.git /home$USER/Downloads/framework-spinner ; cd /home/$USER/Downloads/framework-spinner ; sudo find /usr/share/plymouth/themes/spinner -type f -name 'throbber-*' -delete ; sudo cp -r frames/. /usr/share/plymouth/themes/spinner/ ; sudo dracut --force ;
+sudo cp -r /usr/share/plymouth/themes/. /usr/share/plymouth/themes-bak/ ; git clone https://github.com/Player6734/Framework-plymouth.git /home$USER/Downloads/framework-plymouth ; cd /home/$USER/Downloads/framework-plymouth ; sudo find /usr/share/plymouth/themes/spinner -type f -name 'throbber-*' -delete ; sudo cp -r frames/. /usr/share/plymouth/themes/spinner/ ; cd
+```
+
