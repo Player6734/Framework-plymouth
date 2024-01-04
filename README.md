@@ -41,6 +41,7 @@ sudo dracut --force
 
 ### For fedora users
 Since that's the distro i'm on i can confidently make a one copy-paste-action for this:
+
 (all the commands above chained)
 ```
 sudo cp -r /usr/share/plymouth/themes/. /usr/share/plymouth/themes-bak/ ; git clone https://github.com/Player6734/Framework-spinner.git /home$USER/Downloads/framework-spinner ; cd /home/$USER/Downloads/framework-spinner ; sudo find /usr/share/plymouth/themes/spinner -type f -name 'throbber-*' -delete ; sudo cp -r frames/. /usr/share/plymouth/themes/spinner/ ; sudo dracut --force ;
