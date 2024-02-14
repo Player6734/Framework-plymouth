@@ -10,7 +10,7 @@ sudo cp -r /usr/share/plymouth/themes/. /usr/share/plymouth/themes-bak/
 
 **Clone the repository**
 ```
-git clone https://github.com/Player6734/Framework-plymouth.git /home$USER/Downloads/framework-plymouth
+git clone https://github.com/Player6734/Framework-plymouth.git /home/$USER/Downloads/framework-plymouth
 ```
 
 **cd into it**
