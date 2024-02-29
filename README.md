@@ -39,12 +39,16 @@ Update the kernel to apply the changes. It is recommended to backup your kernel 
 sudo dracut --force -v
 ```
 
+**Clean up the git repo downloaded**
+```
+rm -rf /home/$USER/Downloads/framework-plymouth
+```
 
 ### For fedora users
 Since that's the distro i'm using I can confidently make a one copy-paste-action for this:
 
 (all the commands above chained)
 ```
-sudo cp -r /usr/share/plymouth/themes/. /usr/share/plymouth/themes-bak/ ; git clone https://github.com/Player6734/Framework-plymouth.git /home/$USER/Downloads/framework-plymouth ; cd /home/$USER/Downloads/framework-plymouth ; sudo find /usr/share/plymouth/themes/spinner -type f -name 'throbber-*' -delete ; sudo cp -r Throbber-frames/. /usr/share/plymouth/themes/spinner/ ; cd ; sudo dracut --force -v
+sudo cp -r /usr/share/plymouth/themes/. /usr/share/plymouth/themes-bak/ ; git clone https://github.com/Player6734/Framework-plymouth.git /home/$USER/Downloads/framework-plymouth ; cd /home/$USER/Downloads/framework-plymouth ; sudo find /usr/share/plymouth/themes/spinner -type f -name 'throbber-*' -delete ; sudo cp -r Throbber-frames/. /usr/share/plymouth/themes/spinner/ ; cd ; sudo dracut --force -v ; rm -rf /home/$USER/Downloads/framework-plymouth
 ```
 
