@@ -44,7 +44,7 @@ sudo dracut --force -v
 rm -rf /home/$USER/Downloads/framework-plymouth
 ```
 
-### For fedora and OpenSUSE users
+### For Fedora and OpenSUSE users
 These are the two only distro where I've tested the commands. 
 if the command `sudo find /usr/share/plymouth/themes/spinner -type f -name 'throbber-*'` outputs around 30 files then it should work.
 
